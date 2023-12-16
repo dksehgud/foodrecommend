@@ -1,0 +1,127 @@
+#viewDetails {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  width: 1500px;
+  height: 705px;
+  background-color: #fdf7e4;
+  border-radius: 7px;
+  padding: 8px 0px;
+  overflow: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#viewDetail-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+#viewDetail-table1 {
+  text-align: center;
+  width: 1390px;
+  margin-bottom: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: none;
+  table-layout: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.viewDetail-th1,
+.viewDetail-td1 {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+.viewDetail-th1 {
+  background: #ffe2e2;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+.viewDetail-td1 {
+  background-color: #ffffe8;
+  padding: 13px;
+}
+.viewDetail-table1 tr .viewDetail-td1:first-child {
+  width: 200px;
+}
+
+#viewDetail-table2 {
+  text-align: center;
+  width: 1420px;
+  margin-bottom: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: none;
+  table-layout: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.viewDetail-th2,
+.viewDetail-td2 {
+  border: 1px solid #dddddd;
+  padding: 15px 10px;
+}
+.viewDetail-th2 {
+  background: #ffed86;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+.viewDetail-td2 {
+  background-color: #ffffe8;
+  padding: 13px 10px;
+}
+
+.viewDetail-th2:first-child {
+  width: 180px;
+}
+#viewDetail-table2 tbody tr:last-child {
+  font-size: large;
+  font-weight: bold;
+}
+#viewDetail-table3 {
+  text-align: center;
+  width: 1000px;
+  margin-bottom: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: none;
+  table-layout: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.viewDetail-th3,
+.viewDetail-td3 {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+.viewDetail-th3 {
+  background: #e3f4f4;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+.viewDetail-td3 {
+  background-color: #ffffe8;
+  padding: 10px;
+}
+.viewDetail-table3 tr .viewDetail-td3:first-child {
+  width: 200px;
+}
+.viewDetail-table3 tr .foodDetail-td3:last-child {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+#viewDetail-table3 tbody tr:last-child {
+  font-size: large;
+  font-weight: bold;
+}
+.lack {
+  color: red; /* 부족한 경우 빨간색으로 표시 */
+}
+.sufficient {
+  color: blue; /* 만족하는 경우 파란색으로 표시 */
+}
